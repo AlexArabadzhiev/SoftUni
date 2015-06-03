@@ -1,0 +1,77 @@
+#wrapper{
+	background-color: pink;
+	width: 500px;
+	padding-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+select{
+	width: 45%;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+p{
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+header{
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+.left-labels{
+	float: left;
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.right-labels{
+	float: left;
+	width: 50%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#check{
+	float: left;
+	margin-left: 260px;
+	margin-right: 10px;
+}
+.date{
+	margin-left: 10px;
+	width: 40%;
+	margin-right: 30px;
+}
+.time{
+	width: 20%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.person{
+	width: 56px;
+	float: left;
+	margin-left: 10px	
+}
+#choose-class{
+	float: right;
+	margin-right: 166px;
+	
+}
+.person-label{
+	float: left;
+	margin-right: 35px;
+	margin-left: 10px;
+}
+#class-select{
+	margin-left: 40px;
+}
+#Search-button{
+	margin-left: 255px;
+	width: 227px;
+	height: 30px;
+}

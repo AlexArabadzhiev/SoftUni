@@ -1,0 +1,181 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("images/background-flowers.jpg");
+	font-size: 16px;
+	font-family: Verdana;
+}
+header, aside, section, footer{
+	border: 2px solid #000;
+	background-color: rgba(251, 211, 233, 0.6);
+	padding: 15px 10px;
+}
+#wrapper{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	margin-bottom: 20px;
+}
+header>h1>a>img{
+	width: 200px;
+	float: left;
+}
+header>h1>a>span{
+
+	float: right;
+	color: #000;
+	font-size: 1.2em;
+}
+header>nav{
+	clear: both;
+	text-align: right;
+	margin-top: 10%;
+}
+nav ul{
+	padding: 0;
+}
+nav a{
+	text-decoration: none;
+	color: #FFF;
+}
+header>nav>ul>li{
+	display: inline-block;
+	border: 1px solid #000;
+	background-color: #ED297B;
+	width: 120px;
+	text-align: center;
+	margin-right: 5px;
+	padding: 7px 0px;
+}
+.left{
+	float: left;
+	width: 18%;
+	font-size: 0.9em;
+	min-height: 290px;
+}
+.left a, .left span{
+	display: inline;
+}
+.right{
+	float: right;
+	width: 18%;
+	font-size: 0.9em;
+	min-height: 290px;
+
+}
+.left a{
+	text-decoration: none;
+	color: #000;	
+} 
+.left img{
+	vertical-align: middle;
+}
+.right p{
+	margin-bottom: 0;
+}
+
+aside>ul{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+aside>ul>li{
+	display: inline-block;
+}
+section{
+	width: 53%;
+	margin: 0 auto;
+}
+footer{
+	margin-top: 130px;
+	text-align: center;
+}
+footer a{
+	color: #000;
+}
+section header{
+	border: none;
+	background-color: inherit;
+	margin: 0;
+	padding: 0;
+}
+section header h1{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+section div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between ;	
+}
+section img{
+	width: 24%;
+	margin-bottom: 4px;
+	height: 100%;
+}
+@media screen and (max-width:  960px){
+	#wrapper{
+		width: 100%;
+	}
+	section img{
+		width: 32%;
+	}
+	footer{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 780px) {
+	*{
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+	section{
+		position: absolute;
+	}
+	aside, footer{
+		display: block;
+	}
+	section, aside, footer{		
+		margin: 0;
+		padding: 1%;
+		border-left: 1%;
+		border-right: 1%;
+		width: 98%;
+	}
+	.left{
+		margin-top: 82%;
+		width: 100%;
+		min-height: inherit;
+		
+	}
+	.left ul li{
+		display: block;
+		margin-top: 2px; 
+	}
+	.right{		
+		width: 98%;
+		min-height: inherit;
+	}
+	
+}
+@media screen and (max-width: 640px){
+	header>nav>ul>li{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-right: 0px;
+	padding: 7px 0px;
+	}
+	section img{
+		width:  48%;
+	}
+	.left{
+		margin-top: 155%;
+		
+}

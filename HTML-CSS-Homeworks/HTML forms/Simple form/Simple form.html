@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Enter the System</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div id="wrapper">
+	<header>Enter the system</header>
+	<p id="necessary">It is necessary to login in Your account in order to sign in for a course.</p>
+	<div class="new-reg-div">
+		<form method="post">
+		<h4 class="new">ARE YOU NEW? <span>REGISTER</span></h4>
+		<input type="text" name="new-user" id="Username" placeholder="User name" /><br/>
+		<input type="email" name="new-email" required="true" placeholder="Email" /><br/>
+		<input type="password" name="new-pass" placeholder="Password" /><br/>
+		<input type="password" name="new-pass-confirm" placeholder="Confirm password" /><br/>
+		<input id="regButton" type="button" value="Register" />
+		</form>
+	</div>
+	<div class=login>
+		<form method="post">
+		<h3>ALREADY A SUDENT? LOGIN</h3>
+		<input type="text" name="user-login" placeholder="User name" /><br/>
+		<input type="password" name="login-pass"  placeholder="Password" /><br/>
+		<label><input id="remember-me" type="checkbox" name="remember-me" value="no">Remember me?</label>
+		<input id="login-button" type="button" name="login-button" value="Login" />
+		<br/><br/>
+		<a href="" id="pass-forget">Forgot password?</a>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

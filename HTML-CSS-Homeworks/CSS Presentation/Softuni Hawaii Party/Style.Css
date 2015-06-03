@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Animated;
+	src: url("resourses/Animated.ttf");
+}
+
+.whole{
+	width: 900px;
+	height: 600px;
+	background-image: url("resourses/AlexHula.png"), url("resourses/TediHula.png"),
+	url("resourses/PetiaHula.png"), url("resourses/VladoGHula.png"), url("resourses/VladoKHula.png"),
+	url("resourses/NakovHula.png"),
+	url("resourses/HawaiiBackground.png"), url("resourses/Grad.jpg");
+background-repeat: no-repeat;
+background-position: 73% 88%, 35% 96%, 27% 86%, 6% 89%, 97% 87%, 59% 82%, 0% 0%, 0% 0%;
+}
+.text{
+	display: inline-block;
+	font-family: Animated;
+	color: #FDBC21;
+	font-size: 45px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}

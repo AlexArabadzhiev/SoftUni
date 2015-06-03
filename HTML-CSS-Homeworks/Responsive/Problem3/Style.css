@@ -1,0 +1,68 @@
+body {
+	background: #c7f3ce;
+}
+.header-nav .navbar-brand {
+	background: green;
+	color: black;
+	margin: 0 0.1em;
+}
+#bs-example-navbar-collapse-9 li a {
+	color: black;
+}
+#bs-example-navbar-collapse-9 li {
+	margin: 0.1em;
+	text-align: center;
+}
+#bs-example-navbar-collapse-9 li a:hover {
+	color: white;
+	background: black;
+}
+#bs-example-navbar-collapse-9 li >.active {
+	background: lightgreen;
+}
+.nav {
+	background-color: black;
+	padding: 0;
+}
+.nav li a {
+	color: black;
+}
+.nav>li {
+	background-color: green;
+	margin: 0.1em;
+}
+.nav>li a:hover {
+	color: white;
+	background: black;
+}
+.nav>li>.active {
+	color: black;
+	background: lightgreen;
+}
+.dropdown-toggle:visited {
+	color: lightgreen;
+}
+.jumbotron {
+	background: lightgreen;
+	color: black;
+}
+.article {
+	color: white;
+	background: black;
+	padding: 0.5em;
+	text-align: left;
+	margin: 0.1em;
+}
+.panel-body {
+	background: black;
+}
+.panel :hover {
+	color: lightgreen;
+	background: green;
+}
+#footer .row{
+	background: green;
+	padding: 1.0em;
+	color: black;
+	margin-top: 0.5em;
+}

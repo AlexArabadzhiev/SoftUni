@@ -1,0 +1,99 @@
+header{
+	font-family: arial;
+	background-color: #234456;
+	padding-top: 20px;
+	min-height: 90px;
+}
+#whole-header{
+	width: 1170px;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#logo{
+	float: left;
+}
+
+#notification-bell-search-bar{
+	display: flex;
+	justify-content: flex-end;
+}
+ul li{
+	cursor: pointer;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8rem;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+}
+#search-button{
+	background-color:white;
+	border-left: 1px solid grey;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	vertical-align: sub;
+	height: 2rem;
+	width: 2rem;
+	position: absolute;
+
+}
+#search-bar{
+	margin-left: 20px;
+	height: 1.9rem;
+	width: 200px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+}
+#search-button:hover{
+	background-color: orange;
+}
+#bell{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+.notification-counter {
+	font-size: 1.5rem;
+	color: orange;
+}
+ul li:hover{
+background-color: orange;
+}
+.arrow{
+	font-size: 0.6rem;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul > li:hover ul{
+	display: block;
+}
+ul > li >ul{
+	position: absolute;
+	margin-top: 9px;
+	padding-left: 0px;
+	display: none;
+
+}
+ul > li > ul > li{
+	display: block;
+	background-color: #234456;
+	width: 300px;
+	text-align: left;
+	border-radius: 0px; 
+	border-bottom: 1px solid grey;
+}
+
+.blue-type{
+	color: lightblue;
+}

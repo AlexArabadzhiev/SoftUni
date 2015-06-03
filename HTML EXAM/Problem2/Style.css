@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #50247D;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+	background-image: url("images/orion-gas-and-star-bgr.jpg");
+	margin-bottom: 20px;
+}
+header > #title{
+	color: white;
+	font-size: 68px;
+	font-family: Oleo Script;
+	height: 70px;
+}
+header> #subtitle{
+	color: white;
+	font-size: 26px;
+}
+header, main{
+	border-bottom: 10px solid #37A3D3;
+}
+
+nav>ul{
+	margin: 20px auto;
+}
+nav>ul>li{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	list-style: none;
+	display: inline-block;
+	background-color: white;
+	width: 10%;
+	padding: 10px 5px;
+	margin: 0 10px;
+	color: #50247D;
+}
+main{
+	border-top: 10px solid #865AB3;
+	padding: 40px;
+	background-color: #EAE7EE;
+	display: flex;
+	margin-bottom: 20px;
+}
+.main-article, .article{
+background-color: white;
+}
+
+.article{
+	display: inline-block;
+	width: 40%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+.article> h2{
+	margin-left: 15px;
+	color: #36A4D5; 
+}
+.article> p{
+	margin-left: 15px;
+}
+.article>button{
+	position: absolute;
+	margin-left: 64px;
+}
+.article>img{
+	max-width: 100%;
+}
+button{
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	background-color: #36A4D5;
+	font-weight: bold;
+}
+.main-article button{
+	float: right;
+}
+.main-article>h1{
+	clear: both;
+	font-family: Oleo Script;
+	font-size: 48px;
+}
+.main-article>h2{
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.main-article p{
+	margin-right: 45px;
+}
+.first-pgf{
+	margin-bottom: 15px;
+}
+.quote{
+	font-family: Oleo Script;
+}
+.main-article{
+	padding-left: 45px;
+	max-height: 441px;
+}
+footer{
+	color: white;
+	padding-left: 20px;
+	font-size: 18px;
+}
+.wallpap-btn{
+	background-color: #865AB3;
+	margin-top: 40px;
+	width: 70%;
+	height: 30px;
+}
+
+nav>ul>li:hover{
+	background-color: #37A3D3;
+	color: white;
+	cursor: pointer;
+}
+.wallpap-btn:hover{
+	font-size: 0.77rem;
+	cursor: pointer;
+}
+

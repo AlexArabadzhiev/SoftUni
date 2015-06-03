@@ -1,0 +1,129 @@
+@font-face{
+	font-family: fakebook;
+	src:"Lucida grande.ttf";
+}
+#wrapper{
+	width: 745px;
+	background-color: #3b5998;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: fakebook, tahoma, sans-serif;
+	color: white;
+	
+}
+fieldset{
+	border-radius: 10px;
+}
+select{
+border-radius: 3px;
+border: none;
+width: 132px;
+height: 25px;
+}
+	
+input{
+	border-radius: 3px;
+	border: none;
+	
+}
+header{
+	text-align: center;
+}
+h6{
+	display: inline;
+}
+h1{
+	font-size: 85px;
+	display: inline;
+}
+h4{
+	margin-top: 20px;
+	margin-bottom:5px;
+	font-size: 30px; 
+}
+h5{
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+#none-important{
+	float: left;
+	width: 35%;
+	height: 227px;
+}
+#important{
+	float: right;
+	width: 55%;
+}
+#none-important input{
+	width: 46%;
+	height: 25px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#important input{
+	width: 46%;
+	height: 25px;
+	margin-bottom: 10px;
+}
+#none-important p{
+	margin-top: auto;
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+#none-important #date{
+	width: 75%;
+	margin-right: 45px;
+}
+.radio{
+	width: 5px !important;
+	height: 5px !important;
+	margin-right: 5px !important;
+}
+.first-tree-input-important{
+	width: 130px !important;
+}
+.second-tree-input-important{
+	width: 70px !important;
+}
+#important p{
+	margin-top: auto;
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+#color{
+	position: absolute;
+	width: 130px !important;
+}
+.water{
+	margin-left: 140px;
+	width: 130px !important;
+}
+textarea {
+	width: 98%;
+}
+#reset-button{
+	width: 39%;
+	height: 40px;	
+	margin-top: 10px;
+	border-radius: 8px;
+	color: #3b5998;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: #B4B4B4;
+}
+#reg-button{
+	width: 59%;
+	height: 40px;
+	float: right;
+	margin-top: 10px;
+	border-radius: 8px;
+	color: #3b5998;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: #B4B4B4;
+}

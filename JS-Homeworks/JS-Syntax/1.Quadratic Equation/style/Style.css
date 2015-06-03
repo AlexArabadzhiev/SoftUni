@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(52, 68, 70, 0.84);
+}
+#wrapper{
+    width: 600px;
+    margin: 10px auto;
+    background-color: dimgray;
+    text-align: center;
+    padding-top: 10px;
+}
+input{
+    display: inline-block;
+    margin: 5px auto;
+    width: 50%;
+    font-size: 45px;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+}
+button{
+    display: inline-block;
+    width: 50%;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: fantasy, sans-serif;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 24px;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 45px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-weight: bold;
+
+}

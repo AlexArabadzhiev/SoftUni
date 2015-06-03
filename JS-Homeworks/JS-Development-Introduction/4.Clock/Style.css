@@ -1,0 +1,22 @@
+@font-face {
+    font-family: LCD;
+    src: url("digital-7.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgrey;
+    text-align: center;
+}
+input{
+    margin-top: 50px;
+    width: 500px;
+    background-color: beige;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: LCD;
+    text-align: center;
+    border: 5px solid darkslategray;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	
+	<div id="wrapper">
+	<header>FLIGHT ORDER</header>
+	<form method="get">
+		<P class="left-labels">From</P>
+		<p class="right-labels">To</p>
+		<br/>
+			<select name="start-city" required>
+				<option selected disabled>enter a city</option>
+				<option value="London">London</option>
+				<option value="Moscow">Moscow</option>
+				<option value="New York">New York</option>
+				<option value="Tokyo">Tokyo</option>
+				<option value="Berlin">Berlin</option>
+			</select>
+			<select name="departure-city" required>
+				<option selected disabled>enter a city</option>
+				<option value="London">London</option>
+				<option value="Moscow">Moscow</option>
+				<option value="New York">New York</option>
+				<option value="Tokyo">Tokyo</option>
+				<option value="Berlin">Berlin</option>
+			</select>
+			<p><input id="check" type="checkbox">Prefer directs</p>
+			<p class="left-labels">Departure Date</p>
+			<p class="right-labels">Time Interval</p>
+			<input class="date" name="departure-date" type="date" placeholder="26.02.2015">
+			<input class="time" name="start-time-1st" type="time" placeholder="00:00">
+			<input class="time" name="start-time-2nd" type="time" placeholder="23:59">
+			<p class="left-labels">Return Date</p>
+			<p class="right-labels">Time Interval</p>
+			<input class="date" name="Return-date" type="date" placeholder="27.02.2015">
+			<input class="time" name="return-time-1st" type="time" placeholder="00:00">
+			<input class="time" name="return-time-2nd" type="time" placeholder="23:59">
+			<br/>
+			<p class="person-label">12+</p><p class="person-label">2-12</p><p class="person-label">0-2</p><p id="choose-class">Choose class</p>
+		
+			<input class="person" type="number" min="12" max="100" placeholder="0">
+			<input class="person" type="text" placeholder="0">
+			<input class="person" type="text" placeholder="0">
+			<select id="class-select">
+				<option value="Economy">Economy</option>
+				<option value="Business">Business</option>
+				<option value="First">First</option>
+			</select>
+			<input id="Search-button" type="submit" value="Search">
+	</form>
+	</div>
+	
+</body>
+</html>

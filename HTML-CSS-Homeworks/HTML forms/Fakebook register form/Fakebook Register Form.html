@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fakebook</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>fakebook<h6>&reg;</h6></h1>
+			</br>
+			<h4>Registration</h4>
+			<h5>It is safe and always wil be!</h5>
+		</header>
+		<form method="post" action="form.php"> 
+			<fieldset id="none-important">
+				<legend align="center">None-Important Information</legend>
+				<input type="text" name="first-name" placeholder="First Name" />
+				<input type="text" name="last-name" placeholder="Last Name" />
+				<input type="email" name="Email" placeholder="Your Email" />
+				<input type="tel" name="phone-number" placeholder="Phone Number" />
+				<input type="password" name="pass" placeholder="Password" />
+				<input type="url" name="Website" placeholder="Website">
+				<p>Birthday</p>
+				<input id="date" type="datetime" name="departure" placeholder="26/02/2015 12:00 PM" />
+				<input class="radio" type="radio" name="gender" value="1" />male
+				<input class="radio" type="radio" name="gender" value="2" />female
+				<input class="radio" type="radio" name="gender" value="3" />other
+			</fieldset>
+			<fieldset id="important">
+				<legend align="center">Important Information *required</legend>
+				<select name="Country" reqired>
+					<option disabled selected>Country</option>
+					<option value="Gondor">Gondor</option>
+					<option value="Rohan">Rohan</option>
+					<option value="Mordor">Mordor</option>
+					<option value="The Shire">The Shire</option>
+					<option value="Lorien">Lorien</option>
+					<option value="Dol Guldur">Dol Guldur</option>
+				</select>
+				<input class="first-tree-input-important" type="text" name="village" required placeholder="Village">
+				<input class="first-tree-input-important" type="text" name="district" required placeholder="District">
+				<input class="first-tree-input-important" type="text" name="street" required placeholder="Street">
+				<input class="second-tree-input-important" type="text" name="str-number" required placeholder="Nr">
+				<input class="second-tree-input-important" type="text" name="floor" required placeholder="Floor">
+				<input class="second-tree-input-important" type="text" name="ap-number" required placeholder="Ap Nr">
+				<p>Door Color</p>
+				<input id="color" type="color" name="door-color">
+				<input class="water" type="text" name"water-meter" placeholder="Water Meter Nr">
+				<select name="Aunt-panties" reqired>
+					<option disabled selected>Aunt Panties' Size</option>
+					<option value="xs">XS</option>
+					<option value="s">S</option>
+					<option value="m">M</option>
+					<option value="l">L</option>
+					<option value="xl">XL</option>
+					<option value="xxxl">XXXL</option>
+					<option value="damn">XXXX-DAMN!!!</option>
+				</select>
+				<p>More Personal Information</p>
+				<textarea name="comments" placeholder="Give us more information!!!"></textarea>
+			</fieldset>
+			<input id="reset-button" type="reset" value="Clear Form" />
+			<input id="reg-button" type="submit" value="Register" />
+		</form>
+	</div>
+</body>
+</html>

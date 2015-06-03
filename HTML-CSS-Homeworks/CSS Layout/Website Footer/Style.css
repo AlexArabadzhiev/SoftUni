@@ -1,0 +1,69 @@
+footer{
+	font-family: arial;
+	background-color: #234456;
+	padding-top: 20px;
+	min-height: 90px;
+	font-size: 0.8rem;
+}
+.wrapper{
+	width: 1170px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+}
+.buttons{
+	border: 2px solid #FF9C00;
+	width: 100%;
+	height: 50px;
+	background-color:  #234456;
+	color: white;
+	margin-bottom: 20px;
+}
+.buttons:hover{
+	background-color: #FF9C00; 
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #FF9C00;
+
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	margin-bottom: 5px;
+}
+#reserved{
+	color: white;
+}
+.labels{
+	color: #FF9C00;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.social-links li{
+	display: inline;
+	margin-right: 10px;
+}
+.friends{
+	max-width: 300px;
+}
+.fb-like-box{
+	width: 300px;
+	height: 300px;
+}
+img:hover{
+	opacity: 0.5;
+}
+#facebook-box{
+	background-color: white;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}

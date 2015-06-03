@@ -1,0 +1,24 @@
+#wrapper {
+    width: 500px;
+    margin: 50px auto;
+}
+input{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #000079;
+    color: #df7700;
+    font-size: 25px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    margin: 25px auto;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid #000079;
+    color: #000079;
+    font-size: 20px;
+}

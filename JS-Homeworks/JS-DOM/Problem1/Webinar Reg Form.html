@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        document.getElementById('checkbox').onclick = function () {
+
+            showInvoiceForm(this, 'invoice');
+        };
+
+
+        function showInvoiceForm(box, id) {
+
+            var element = document.getElementById(id);
+
+            if (box.checked) {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
+        }
+    </script>
+    <style>
+        #Form{
+            text-align: center;
+            background-color: #FFF0E0;
+        }
+        input{
+            display: inline-block;
+            margin: auto;
+        }
+        p{
+            margin: 5px;
+        }
+        #checkBox{
+            margin: 10px auto;
+        }
+        span{
+            color: red;
+        }
+        #invoice{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="Form">
+    <h1>Webinar registration form</h1>
+
+    <form action="/" method="post">
+        <div>
+            <p>Име и фамилия: <span>*    </span></p>
+            <input type="text" name="name" value=" " />
+
+            <p>Адрес: </p>
+            <input type="text" name="name" value=" " />
+
+            <p>Населено място: </p>
+            <input type="text" name="name" value=" " />
+
+            <p>Пощенски код: </p>
+            <input type="text" name="name" value=" " />
+
+            <p>Email: <span>*    </span></p>
+            <input type="email" name="name" value=" " />
+
+            <p>Телефон: <span>*    </span></p>
+            <input type="text" name="name" value=" " />
+
+            <p>Дата: <span>*    </span></p>
+            <input type="date" name="name" value=" " />
+            <br/>
+
+
+            <input type="checkbox" id="checkBox" name="name" value=" " onclick="showInvoiceForm(this, 'invoice');" /> Желая фактура
+
+            <div id="invoice">
+
+                <p>Фирма/Организация: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>МОЛ: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>ЕИК: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>ИН по ДДС: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>Адрес: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+            </div>
+
+            <br>
+            <button type="button">Register</button>
+            <button type="button">Clear</button>
+        </div>
+
+
+    </form>
+
+
+</div>
+</body>
+</html>

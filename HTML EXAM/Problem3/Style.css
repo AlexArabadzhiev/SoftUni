@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+nav{
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+}
+nav ul li{
+	width: 20%;
+}
+ul a{
+	margin: 0px -2px;
+}
+.search{
+	color: white;
+	background-color: #3BBC96;
+}
+.nav2{
+	color: #EEEEEE;
+	background-color: #384452;
+}
+.nav3{
+	color: #EEEEEE;
+	background-color: #384452;
+	width: 400px;
+}
+a li, a img{	
+	float: left;
+}
+a p{
+	padding-top: 20px;
+}
+form{
+	clear: both;
+	padding: 10px 20px;
+	background-color: #EEEEEE;
+}
+input{
+	padding-left: 10px;
+	width: 150px;
+	height: 40px;
+}
+input ul{
+	display: flex;
+	justify content: space-around;
+}
+form li{
+	width: 24%;
+	margin: 10px 0px;
+	padding-left: 5px;
+}
+form ul li{
+	font-weight: bold;
+}
+
+.submit{
+	color: white;
+	border: none;
+	border-radius: 5px;
+	background-color:  #3BBC96;
+	width: 180px;
+}
+.submit:hover{
+	cursor: pointer;
+	background-color: #384452;
+}
